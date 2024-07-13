@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/errorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/retryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="coba lagi"
+        android:visibility="gone" />
+
+
+</LinearLayout>
